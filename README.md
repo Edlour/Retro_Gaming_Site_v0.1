@@ -3,3 +3,5 @@ A website I created as a learning experience. It's basically a site that allows 
 
 #Here is what the Home page looks like:
 ![Capture](https://user-images.githubusercontent.com/91026599/136703686-6063e9a9-6b2d-4d4f-b617-d153496fa405.PNG)
+
+*Also, just to spoil the fun, there are animations.*
