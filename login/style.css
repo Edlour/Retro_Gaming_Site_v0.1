@@ -1,0 +1,49 @@
+body{ 
+    margin: 0;
+    padding: 0;
+    background-image: url(Images/a-bust-with-a-skull-mask-and-neon-lights-oc-wallpaper.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+   overflow-y: hidden;
+   
+}
+.login-container{
+    display: flex;
+    transform: translateY(100px);
+    width:  850px;
+    height: 520px;
+    background-color: white;
+    flex-direction: row;
+    animation: fade-in 3s;
+    
+}
+@keyframes fade-in{
+from{
+opacity: 0;
+}
+to{
+opacity: 0.5;
+}
+to{
+opacity: 1;
+}
+}
+#form-image{
+    height: 100%;
+    width: 50%;
+    background-image: url(Images/a-bust-with-a-skull-mask-and-neon-lights-oc-wallpaper.jpg);
+    background-size: cover;
+    background-position-x: -290px;
+}
+#form-image p{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+}
+#form-container{
+    margin: 15px;
+}
+button:hover{
+    background-color: purple;
+}

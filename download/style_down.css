@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-image: url(a-bust-with-a-skull-mask-and-neon-lights-oc-wallpaper.jpg);
+   background-position-x: -1300px;
+}
+body > h1{
+    text-align: center;
+}
+.container1{
+    width: 100%;
+    height: auto;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+border-color: 3px solid red;
+
+}
+#box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+        margin: 25px;
+    width: 400px;
+    height: 480px;
+    
+    background-image: url(https://wallpaper.dog/large/20492256.jpg);
+    background-size: cover;
+   background-position-x: -250px;
+}
+#top_inside{
+    background-color: rgba(26, 25, 25, 0.705);
+}
+#topin_inside{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.616);
+    color: white;
+    font-size: 18px;
+}
+#inside1{
+    background-color: rgb(121, 26, 139);
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    
+}
+#inside1:hover{
+    background-color:rgb(38, 156, 53);
+}
+#inside1 a{
+    text-decoration: none;
+    color: white;
+}
+#top_inside{
+    text-align: center;
+    color: white;
+}
+
+
+.container2{
+    width: 100%;
+    height: auto;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+
+}
+#box2{
+    margin: 25px;
+    width: 400px;
+    height: 480px;
+    background-color: white;
+}
